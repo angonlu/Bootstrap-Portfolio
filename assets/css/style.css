@@ -1,4 +1,4 @@
-body { padding-bottom: 70px; }
+/*body { padding-bottom: 70px; }
 
 #luis-a {
 	padding: 5px;
@@ -26,9 +26,6 @@ body { padding-bottom: 70px; }
 #mysidebar {
 	text-align: center;
 }
-
-/*CSS for portfolio images. I copied this, I didn't come up with it, I'm sorry, I'm just not there yet.*/
-
 
 .caption {
         width: 100%;
@@ -58,7 +55,8 @@ body { padding-bottom: 70px; }
     }
   	.h2text {
   		text-align: left;
-  	}
+  	}*/
+
 /*
 body { 
 	padding-top: 70px; 
@@ -97,3 +95,30 @@ h1 {
     text-align: center;
     height: 50px;
 }*/
+
+body {
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    background-image: url(../images/dark-triangles.png);
+    background-size: cover;
+}
+.row, .container, .fixed-bottom {
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+.social {
+    margin-left: 8%;
+}
+
+p {
+    letter-spacing: .05em;
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1200px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .row, .container, .fixed-bottom {
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+}

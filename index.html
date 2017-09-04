@@ -11,72 +11,101 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 	<!-- Just in case you need an extra external CSS file -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<title>Portfolio - Powered by Bootstrap</title>
 </head>
 <body>
-<nav class="navbar navbar-default">
-<!-- Navbar -->
-	<div class="container">
-		<div class="navbar-header">
-			<p class="navbar-brand bg-success">Luis Angon</p>
-		</div>
-		<div class="container">
-			<div class="row">
-			<ul class="nav navbar-nav navbar-right">
-				<li class="col-xs-4 col-sm-3 col-md-3"><a href="index.html">About</a></li>
-				<li class="col-xs-4 col-sm-3 col-md-3"><a href="portfolio.html">Portfolio</a></li>
-				<li class="col-xs-4 col-sm-3 col-md-3"><a href="contact.html">Contact</a></li>
-			</ul>
-			</div>
-		</div>
-		</div>
-
+	<!-- Navigation -->
+	<nav role="navigation" class="navbar container-fluid navbar-default navbar-fixed-top">
+  		<div class="container-fluid">
+  		<div class="navbar-header bg-success">
+  		  <h1 class="navbar-text col-xs-9 col-lg-12">Luis Angon</h1>
+  		  <button type="button" class="navbar-toggle bg-success" data-toggle="collapse" data-target=".navbar-collapse">
+  				<span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+  		</button>
+  		</div>
+  		
+		<div class="navbar-collapse collapse">
+  		  <ul class="list-inline nav navbar-nav navbar-link bg-danger text-center col-xs-12 col-sm-7 col-md-5 col-lg-4 pull-right ">
+			<li class="navbar-text"><a href="portfolio.html">Portfolio</a></li>
+			<li class="navbar-text"><a href="contact.html">Contact</a></li>
+			<li class="navbar-text"><a href="index.html">About</a></li>
+  		  </ul>
+  		 </div>
+  		</div>
 	</nav>
-<!-- End of Navbar -->
+<!-- End of NavBar -->
+<!-- Main content -->
 <div class="container">
-<!-- Main content area -->
-<div class="container col-xs-12 col-sm-12 col-md-7 marginbottom" style="border: 1px solid #eee;">
-	<h2> About Me </h2>
-	<hr>
-	<div class="row">
-	<img id="myluis-a" class="img-responsive col-xs-12 col-sm-12 pull-left" src="assets/images/luis-a.png">
-	
-		<p id="mytext" class="pull-left col-xs-12">Hello! You're here because someone told you about the awesome work I do or maybe I gave you a business card at a convention or a meetup. I'm glad you decided to take a look at my work. I'm a (future)Web Developer based out of my parent's living room in beautiful Los Angeles, CA. I recently left a career in trucking after 300,000 miles as I was ready to move on to a more rewarding and challenging career path even after I was awarded driver of the month a couple of times. I've also never been fired from any of my jobs. Please, take some time to look through my previous work and send me a message. I'll be more than glad to answer any inquiries. <br>Keep on truckin'!
-		</p>
+  <div class="row col-lg-8">
+  <!-- panel -->
+	  <div class="panel panel-default">
+  		<div class="panel-heading">
+    		<h2 class="panel-title">About Me</h2>
+      </div>
+  	<div class="panel-body">
+    	<div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail">
+      		<img src="assets/images/luis-a.png" alt="profile-photo">
+    		</a>
+  		</div>
+  		<p>Hello! Welcome to the bootstrap version of my portfolio. You're here because we met at a convetion, meetup, or a bar. Maybe someone gave you my card, anyway, I'm glad you're here. to the left are a couple of links to a couple of my social media outlets.</p>
+  	</div>
 
-	</div>
-
-</div>
-
-
-
-<!-- Sidebar -->
-<div class="container col-xs-12 col-sm-12 col-md-4 pull-right" style="border: 1px solid #eee">
-	<div class="row">
-		<h2 style="text-align: center;">Connect With Me</h2>
-		<hr>
-	<div id="mysidebar" class="row">
-	<a class="col-xs-3 col-md-4" href="https://github.com/angonlu"><img class="img-responsive" src="assets/images/github48.png"></a>
-	<a class="col-xs-3 col-md-4" href="https://www.linkedin.com/in/luis-angon-947b28132/"><img class="img-responsive" src="assets/images/linkedin48.png"></a>
-	<a class="col-xs-3 col-md-4" href="https://stackoverflow.com/users/7656188/louis"><img class="img-responsive" src="assets/images/stack48.png"></a>
-
-	</div>
-	</div>
-</div>
-<!-- End Sidebar -->
-</div>
-
-<br><br>
-
-
-<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container" style="text-align: center; padding: 10px 0px;">
-    <p>Copyright Luis E Angon 2017</p>
   </div>
-</nav>
+</div>
+<!-- end of main panel -->
 
-</body>
+<!-- contact me section -->
+	<div class="container col-lg-4 col-xs-12 pull-right">
+	 	<div class="panel panel-default">
+  			<div class="panel-heading">Connect With Me</div>
+  				<div class="panel-body">
+    			<a href="#" class="pull-left social">
+      				<img src="assets/images/linkedin48.png" alt="...">
+    			</a>
+    			<a href="#" class="pull-left social">
+      				<img src="assets/images/stack48.png" alt="...">
+    			</a>
+    			<a href="#" class="pull-left social">
+      				<img src="assets/images/github48.png" alt="...">
+    			</a>
+  				</div>
+		</div>
+  </div>
+</div>
+<!-- end of contact me section -->
+
+<!-- footer -->
+<footer>
+<nav class="navbar-fixed-bottom navbar-light bg-primary text-center">
+  <h5>&copy;Copyright Luis Angon</h5>
+</nav>
+</footer>
+
+<!-- end footer -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
 </html>
+
+
+<!-- <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav> -->

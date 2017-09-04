@@ -17,21 +17,25 @@
 </head>
 <body>
 <!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <p class="navbar-brand bg-success">Luis Angon</p>
-    </div>
-    <div class="container">
-      <div class="row">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="col-xs-4 col-sm-3 col-md-3"><a href="index.html">About</a></li>
-        <li class="col-xs-4 col-sm-3 col-md-3"><a href="portfolio.html">Portfolio</a></li>
-        <li class="col-xs-4 col-sm-3 col-md-3"><a href="contact.html">Contact</a></li>
-      </ul>
+<nav role="navigation" class="navbar container-fluid navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+      <div class="navbar-header bg-success">
+        <h1 class="navbar-text col-xs-9 col-lg-12">Luis Angon</h1>
+        <button type="button" class="navbar-toggle bg-success" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+      </button>
       </div>
-    </div>
-    </div>
+      
+    <div class="navbar-collapse collapse">
+        <ul class="list-inline nav navbar-nav navbar-link bg-danger text-center col-xs-12 col-sm-7 col-md-5 col-lg-4 pull-right ">
+      <li class="navbar-text"><a href="portfolio.html">Portfolio</a></li>
+      <li class="navbar-text"><a href="contact.html">Contact</a></li>
+      <li class="navbar-text"><a href="index.html">About</a></li>
+        </ul>
+       </div>
+      </div>
   </nav>
 <!-- End Navbar -->
 <div class="container">
@@ -77,29 +81,31 @@
 
 <!-- Sidebar -->
 <!-- <div class="container"> -->
-<div class="container">
-<div class="container col-xs-12 col-sm-12 col-md-4 pull-right" style="border: 1px solid #eee">
-  <div class="row">
-    <h2>Connect With Me</h2>
-    <hr>
-  <div id="mysidebar" class="row">
-  <a class="col-xs-3 col-md-4" href="https://github.com/angonlu"><img src="assets/images/github48.png"></a>
-  <a class="col-xs-3 col-md-4" href="https://www.linkedin.com/in/luis-angon-947b28132/"><img src="assets/images/linkedin48.png"></a>
-  <a class="col-xs-3 col-md-4" href="https://stackoverflow.com/users/7656188/louis"><img src="assets/images/stack48.png"></a>
-
+<div class="container col-lg-3 col-xs-12 pull-right">
+    <div class="panel panel-default">
+        <div class="panel-heading">Connect With Me</div>
+          <div class="panel-body">
+          <a href="#" class="pull-left">
+              <img src="assets/images/linkedin48.png" alt="...">
+          </a>
+          <a href="#" class="pull-left">
+              <img src="assets/images/stack48.png" alt="...">
+          </a>
+          <a href="#" class="pull-left">
+              <img src="assets/images/github48.png" alt="...">
+          </a>
+          </div>
+    </div>
   </div>
-  </div>
-</div>
-</div>
 <!-- End Sidebar -->
 </div>
 <br><br>
 <!-- Footer -->
-<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container" style="text-align: center; padding: 10px 0px;">
-    <p>Copyright Luis E Angon 2017</p>
-  </div>
+<footer>
+<nav class="navbar-fixed-bottom navbar-light bg-primary text-center">
+  <h5>&copy;Copyright Luis Angon</h5>
 </nav>
+</footer>
 <!-- End Footer -->
 
 </body>
