@@ -4,12 +4,17 @@ body {
     background-image: url(../images/dark-triangles.png);
     background-size: cover;
 }
-.row, .container, .fixed-bottom {
-    margin-top: 8%;
-    margin-bottom: 3%;
+
+.main-panel {
+  margin-top: 12%;
+  margin-bottom: 3%;
+}
+footer {
+  margin-top: 5%;
+}
 }
 .social {
-    margin-left: 8%;
+  margin-right: 8%;
 }
 
 p {
@@ -18,7 +23,7 @@ p {
 
 @media only screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1200px) 
+  and (max-device-width: 1200px)
   and (-webkit-min-device-pixel-ratio: 1) {
     .row, .container, .fixed-bottom {
     margin-top: 8%;
